@@ -1,0 +1,7 @@
+docker container prune -f --delete conatiners
+
+docker run alpine ping www.civo.com
+
+docker run -d alpine ping www.civo.com
+
+docker
