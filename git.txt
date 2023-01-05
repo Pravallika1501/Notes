@@ -1,0 +1,25 @@
+ls -a(show hidden folders)
+ls .git(show content in folder)
+git status-untracked changes
+git add .- staging the changes
+git commit -m( message) ""
+git restore --staged filename(removes added changes)
+git log(history)
+git reset commit no.
+git stash(keep the changes saved to working directory)
+git stash pop
+git stash clear(saved changes are cleared)
+git remote add origin url
+git push origin master
+git merge feature
+git remote add upstream(from where url is being forked)
+git push origin branch -f
+git checkout main
+git fetch --all --prune
+git reset --hard upstream/main
+git push origin main
+git pull upstream main
+Merge commits- git rebase -i(interactive env)
+pick,squash commits-(s means merging commit to previous pick)
+:x
+merge conflicts-
